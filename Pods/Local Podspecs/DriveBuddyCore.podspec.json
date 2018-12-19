@@ -1,0 +1,39 @@
+{
+  "name": "DriveBuddyCore",
+  "version": "0.2.5",
+  "summary": "A short description of DriveBuddyCore.",
+  "description": "Drive Buddy SDK",
+  "homepage": "http://www.drivebuddyapp.com",
+  "license": "All Rights Reserved to Drive Buddy",
+  "authors": "Drive Buddy",
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk"
+  },
+  "vendored_frameworks": "DriveBuddyCore.framework",
+  "dependencies": {
+    "SwiftCompressor": [
+      "~> 0.2.1"
+    ],
+    "AZSClient": [
+      "~> 0.2.4"
+    ],
+    "ReachabilitySwift": [
+      "~> 3"
+    ],
+    "CocoaLumberjack/Swift": [
+      "~> 3.2.0"
+    ],
+    "SwiftProtobuf": [
+      "~> 1.0"
+    ],
+    "Alamofire": [
+      "~> 4.7"
+    ],
+    "Sentry": [
+      "~> 4.1.0"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+PODS:
+  - Alamofire (4.8.0)
+  - AZSClient (0.2.6)
+  - CocoaLumberjack/Default (3.2.1)
+  - CocoaLumberjack/Swift (3.2.1):
+    - CocoaLumberjack/Default
+  - DriveBuddyCore (0.2.5):
+    - Alamofire (~> 4.7)
+    - AZSClient (~> 0.2.4)
+    - CocoaLumberjack/Swift (~> 3.2.0)
+    - ReachabilitySwift (~> 3)
+    - Sentry (~> 4.1.0)
+    - SwiftCompressor (~> 0.2.1)
+    - SwiftProtobuf (~> 1.0)
+  - DriveBuddySDK (0.0.1):
+    - DriveBuddyCore (~> 0.2.5)
+  - ReachabilitySwift (3)
+  - Sentry (4.1.0):
+    - Sentry/Core (= 4.1.0)
+  - Sentry/Core (4.1.0)
+  - SwiftCompressor (0.2.1)
+  - SwiftProtobuf (1.2.0)
+
+DEPENDENCIES:
+  - DriveBuddyCore (from `https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk`)
+  - DriveBuddySDK (from `https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AZSClient
+    - CocoaLumberjack
+    - ReachabilitySwift
+    - Sentry
+    - SwiftCompressor
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  DriveBuddyCore:
+    :git: https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk
+  DriveBuddySDK:
+    :git: https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk
+
+CHECKOUT OPTIONS:
+  DriveBuddyCore:
+    :commit: 0f63b9b45c586042cdb8f2659a5298d2ac0f6621
+    :git: https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk
+  DriveBuddySDK:
+    :commit: 0f63b9b45c586042cdb8f2659a5298d2ac0f6621
+    :git: https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AZSClient: efd576cabf56f97e38cb1b614739f4b0c1906392
+  CocoaLumberjack: 2800c03334042fe80589423c8d80e582dcaec482
+  DriveBuddyCore: a57c1ed916b62275186965204d5154b8c0dbb4bb
+  DriveBuddySDK: a0fe2c97e1a8dcfe98fec37a4d6d3bd184015daf
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Sentry: 44b85e768f435ede4d12ea279af588ff275c3939
+  SwiftCompressor: ebad85a0494f7a4f6e0ade26746e050cab7c990a
+  SwiftProtobuf: 91a9856079044ef4ec762b2344c763cd9e5a73c1
+
+PODFILE CHECKSUM: 3e137b4dc4479c439f0f4b0425a6dfa4d35699a2
+
+COCOAPODS: 1.5.3
