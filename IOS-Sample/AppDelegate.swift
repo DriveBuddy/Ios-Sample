@@ -33,6 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, DriveBuddyDelegate {
         DriveBuddy.set(delegate: self)
         DriveBuddy.restore()
         
+        // Authentication is persistent. You can directly enable SDK if authentication status is '.Authenticated'. Check docs for implementation.
+        
         return true
     }
     
