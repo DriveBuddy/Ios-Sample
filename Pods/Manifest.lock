@@ -43,10 +43,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   DriveBuddyCore:
-    :commit: 0f63b9b45c586042cdb8f2659a5298d2ac0f6621
+    :commit: ce846f66bd6034c566dbc3e4a52eb4b457b5279b
     :git: https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk
   DriveBuddySDK:
-    :commit: 0f63b9b45c586042cdb8f2659a5298d2ac0f6621
+    :commit: ce846f66bd6034c566dbc3e4a52eb4b457b5279b
     :git: https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk
 
 SPEC CHECKSUMS:
