@@ -1,6 +1,0 @@
-framework module DriveBuddySDK {
-  umbrella header "DriveBuddySDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

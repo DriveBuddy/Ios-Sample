@@ -1,4 +1,0 @@
-framework module DriveBuddyCore {
-    header "DriveBuddyCore-Swift.h"
-    requires objc
-}

@@ -1,1 +1,0 @@
-For documentation, please visit: https://docs.drivebuddy.xyz/ios/

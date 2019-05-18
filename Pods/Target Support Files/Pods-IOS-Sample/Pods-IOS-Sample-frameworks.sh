@@ -141,29 +141,6 @@ strip_invalid_archs() {
   STRIP_BINARY_RETVAL=1
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AZSClient/AZSClient.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
-  install_framework "${PODS_ROOT}/DriveBuddyCore/DriveBuddyCore.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/DriveBuddySDK/DriveBuddySDK.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftCompressor/SwiftCompressor.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AZSClient/AZSClient.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
-  install_framework "${PODS_ROOT}/DriveBuddyCore/DriveBuddyCore.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/DriveBuddySDK/DriveBuddySDK.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftCompressor/SwiftCompressor.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
-fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi
