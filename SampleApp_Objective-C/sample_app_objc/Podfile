@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'sample_app_objc' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+   use_frameworks!
+
+  # Pods for sample_app_objc
+
+  pod 'DriveBuddyCore', :git => 'https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk'
+  pod 'DriveBuddySDK', :git => 'https://github.com/DriveBuddy/Drive-Buddy-Ios-Sdk'
+
+  post_install do |installer|
+        installer.pods_project.targets.each do |target|
+            target.build_configurations.each do |config|
+                config.build_settings['ENABLE_BITCODE'] = 'NO'
+            end
+        end
+    end
+
+
+end
