@@ -1,1 +1,13 @@
-For documentation, please visit: https://docs.drivebuddyapp.com/ios/
+## Introduction
+
+Drive Buddy aims to provide safer travel for all drivers using only a phone's sensors. Drive Buddy SDK can detect crashes using sensor data and notify insurance companies or call chosen contacts. Drive Buddy will also build a detailed information and analysis of drivings. For letting Drive Buddy to collect driving data, you should place Drive Buddy SDK to your application. Drive Buddy SDK will collect Acceleration and Location data using the phone's sensors and build analysis of drivings.
+
+## Get your SDK key
+
+To get your SDK key, you need to contact us via E-Mail. You can send a mail with subject `Request: SDK Key` to [support@drivebuddyapp.com](mailto:support@drivebuddapp.com?Subject=Request:%20SDK%20Key). 
+
+## Running Sample App
+
+All you need to do is get your SDK key as mentioned above, and then add your SDK key to the project [here](/SampleApp_Swift/IOS-Sample/SDKKey.swift).
+
+#### _For more information please visit [iOS Docs](https://docs.drivebuddyapp.com/ios/#introduction)._
